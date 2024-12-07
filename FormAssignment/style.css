@@ -1,0 +1,23 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+}
+
+.image_florest {
+    width: 40vw;
+    height: 100svh;
+    margin-bottom: -4px;
+}
+
+.image_odin{
+
+}
+
+.odin_holder{
+    background-color: rgba(0, 0, 0, 0.507);
+    position: fixed;
+
+}

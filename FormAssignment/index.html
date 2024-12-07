@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Assignment</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+    <div class="image_place">
+        <div class="odin_holder">
+            <img src="Assets/odin-lined.png" alt="Odin" class="image_odin">
+            <p>ODIN</p>
+        </div>
+        <img src="Assets/halie-west-25xggax4bSA-unsplash.jpg" alt="Florest BackGround" class="image_florest"/>
+    </div>
+
+    <div class="content_place">
+        <p>
+            This is not a real online service! You know you need something like this
+            in youe life to help you realize your deepest dreams sign up now to get
+            started
+        </p>
+        <p>You <em>know</em> you want to</p>
+        <form action="#" method="post">
+            <div class="form_body">
+                <p>Let's do this!</p>
+                <div>
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" name="first_name" />
+                </div>
+                <div>
+                    <label for="last_name">LAST NAME</label>
+                    <input type="text" id="last_name" name="last_name" />
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div>
+                    <label for="phone_number">PHONE NUMBER</label>
+                    <input type="number" name="phone_number" id="phone_number" />
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" />
+                </div>
+                <div>
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" name="confirm_password" id="confirm_password" />
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="">Log In</a></p>
+    </div>
 </body>
+
 </html>
