@@ -1,9 +1,19 @@
+@font-face {
+    font-family: norse-font;
+    src: url(Assets/Norse-Bold.otf);
+}
 
-body{
+body {
     margin: 0px;
     padding: 0px;
     display: flex;
+    background-color: rgb(250, 248, 242);
+}
 
+.image_holder {
+    width: 40vw;
+    display: flex;
+    align-items: center;
 }
 
 .image_florest {
@@ -12,12 +22,40 @@ body{
     margin-bottom: -4px;
 }
 
-.image_odin{
-
-}
-
-.odin_holder{
+.odin_holder {
     background-color: rgba(0, 0, 0, 0.507);
     position: fixed;
+    width: 40%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.odin_holder > p {
+    color: white;
+    font-family: norse-font, sans-serif;
+    font-size: 7em;
+}
+
+.image_odin {
+    width: 15%;
+    height: 100%;
+}
+
+.form_body {
+    background-color: white;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.397);
+    width: 60svw;
+}
+
+.inputs_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs_conteiner > div{
+    flex: 1 1 400px;
 }
